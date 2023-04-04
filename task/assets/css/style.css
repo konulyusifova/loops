@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+}
+.col-1{
+    width: calc(100%/12 *1);
+}
+.col-2{
+    width: calc(100%/6);
+}
+.col-3{
+    width: calc(100%/4);
+}
+.col-4{
+    width: calc(100%/3);
+    padding: 10px;
+}
+.col-5{
+    width: calc(100%/2.4);
+}
+.col-6{
+    width: calc(100%/2);
+}
+.col-7{
+    width: calc(100%/1.7142857143);
+}
+.col-8{
+    width: calc(100%/1.5);
+}
+.col-9{
+    width: calc(100%/1.3333333333);
+}
+.col-10{
+    width: calc(100%/1.2);
+}
+.col-11{
+    width: calc(100%/1.0909090909);
+}
+.col-12{
+    width: calc(100%/1);
+}
+.container{
+    width: 80%;
+    margin: 0 10%;
+}
+.umumi{
+    height: 1000px;
+    width: 100%;
+    background-image: url(https://dcscc.com/dcscc/images/campaigns/luggage/upi-luggage-banner1a-min.jpg);
+    background-size: 100%;
+}
+.tam{
+    display: flex;
+    justify-content: space-between;
+}
+.menu{
+    display: flex;
+    gap: 40px;
+    margin-top: 15px;
+}
+button{
+    padding: 10px 40px;
+    border: 1px solid black;
+    background-color: rgb(249, 252, 252);
+}
+ul{
+    list-style: none;
+}
+
+ul li ul{
+    display: none;
+    line-height: 20px;
+    margin: 0;
+    padding: 10px 20px;
+}
+ul li:hover ul{
+    display: block;
+    background-color: whitesmoke;
+}
+.yazi{
+    padding: 200px 260px;
+    text-align: center;
+    line-height: 60px;
+}
+h1{
+    font-size: 60px;
+}
